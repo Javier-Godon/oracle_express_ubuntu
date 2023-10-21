@@ -65,9 +65,10 @@ $ docker compse up
 
 <https://docs.docker.com/engine/reference/commandline/compose_up/>  
 
-![image](https://github.com/Javier-Godon/oracle_express_ubuntu/assets/32432254/8e9d7516-78f6-4b28-9c6d-01e887eb0691)
+![image](https://github.com/Javier-Godon/oracle_express_ubuntu/assets/32432254/d4560a70-a885-4fcf-a0fe-a76f8f41873f)
 
-![image](https://github.com/Javier-Godon/oracle_express_ubuntu/assets/32432254/59d83619-9bcb-4d05-ac82-1d17a79056a4)
+![image](https://github.com/Javier-Godon/oracle_express_ubuntu/assets/32432254/a49c63c2-418a-4cb8-8f41-f882f3b278b3)
+
 
 Now your database is up and running.
 
