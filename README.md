@@ -29,13 +29,15 @@ $ sudo apt-get install ./docker-desktop-4.24.0-amd.deb
 Once Docker desktop is installed open it and then following Oracle instructions we should go to it's registry and download the image that we need,
 in my case Oracle Express 21.3.0  
 
-<https://container-registry.oracle.com > 
+<https://container-registry.oracle.com> 
+
+![image](https://github.com/Javier-Godon/oracle_express_ubuntu/assets/32432254/2df10174-77a7-424a-ab21-d03c761d60c0)
 
 then go to database
 
 ![image](https://github.com/Javier-Godon/oracle_express_ubuntu/assets/32432254/4ee84383-421d-43f3-8da7-d5c34b9b64e3)
 
-and chose express
+and choose express
 
 ![image](https://github.com/Javier-Godon/oracle_express_ubuntu/assets/32432254/45a1b4c5-c54e-4d78-8c13-046dffab1341)
 
@@ -69,7 +71,11 @@ $ sudo chmod -R o+w oracle-express
 and then
 
 ```
-$ docker compse up
+$ docker compose up
+```
+or maybe you need to use
+```
+$ docker-compose up
 ```
 
 <https://docs.docker.com/engine/reference/commandline/compose_up/>  
@@ -86,6 +92,21 @@ You can start and stop your database from your docker desktop, playing or stopin
 some reading:
 
 <https://docs.docker.com/desktop/use-desktop/>
+
+Now you can connect to the database using a client
+
+## Connection using DBeaver
+
+Use the password and port specified on your docker-compose.yaml, in my case: 
+```txt
+password: oracle
+port: 1521
+```
+
+![image](https://github.com/Javier-Godon/oracle_express_ubuntu/assets/32432254/a2609bc8-6c80-450e-953a-02f583c8609f)
+
+
+
 
 Enjoy!! :)
 
